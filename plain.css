@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#background{
+    width: 1400px;
+    height: 400px;
+    background-size: cover;
+    border: 2px;
+}
+#road{
+    width: 1400px;
+    height: 230px;
+    margin-top: -5px;
+    position: relative;
+}
+#plane{
+    width: 700px;
+    /* transform: translate(1200px, -200px); */
+   
+    position: absolute;
+    animation: plane 5s ease-in-out infinite
+}
+@keyframes plane{
+   0% {transform: translate(1400px, -250px );}
+   100%{transform: translate(-2000px, -1200px);}
+}
